@@ -1,0 +1,1 @@
+/Users/shkwok/bin/IPython.app
