@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GUI name="MyGUI">
+<Tab name="Tab" sticky="NEWS" bg="#ff0000">
+
+<Frame name="LeftFrame" row="0" col="0" sticky="NEWS" bg="#ddbbbb"
+    rowWeight="1">
+<Button name="b1" text="Button 1 here" row="1" col="1" sticky="nws" />
+<Button name="b2" text="This is button 2" row="2" col="1" sticky="NEWS" />
+</Frame>
+
+<Frame name="RightFrame" row="0" col="1" sticky="NEWS" 
+    bg="#ccccff" colWeight="1" rowWeight="1"
+    padx="3" pady="3">
+<Label name="l1" text="Label1" row="0" col="0"  sticky="NEWS" 
+    padx="3" pady="3"/>
+<Entry name="e1" text="entry" value="value" width="10" row="0" col="1" 
+    sticky="NEWS" colWeight="1" />
+<Checkbox name="c1" row="0" col="2"  sticky="NEWS" />
+</Frame>
+
+<Button name="quitButton" text="Quit" 
+    row="1" col="0" colspan="2" sticky="NEWS"
+    font="arial 24"
+    rowWeight="1"
+    bg="#ccffcc" />
+</Tab>
+</GUI>
